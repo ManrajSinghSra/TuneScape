@@ -23,6 +23,6 @@ signupForm.addEventListener('submit', (e) => {
         return;
     }
     alert('user created successfully');
-    setTimeout(() => loadPage('TuneScape/html/login.html'));
+    setTimeout(() => loadPage('/TuneScape/html/login.html'));
     return;
 })
