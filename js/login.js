@@ -28,7 +28,7 @@ loginForm.addEventListener('submit', (e) => {
 
     alert('logged in successfully');
     setTimeout(() => {
-        loadPage('/TuneScape/main.html');
+        loadPage('/main.html');
     });
     return;
 })
