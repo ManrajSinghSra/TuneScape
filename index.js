@@ -7,12 +7,12 @@ playBtn.addEventListener('click', () => {
     const currentUser = getCurrentUser();
     console.log(currentUser);
     if(!Boolean(currentUser)) {
-        loadPage('/TuneScape/html/login.html');
+        loadPage('/html/login.html');
         return;
     }
     alert(`Hello ${currentUser.username}`);
     setTimeout(() => {
-        loadPage('/TuneScape/main.html');
+        loadPage('/main.html');
     })
 })
 
